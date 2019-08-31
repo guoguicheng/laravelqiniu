@@ -1,13 +1,17 @@
 {
     "name": "ladimin/qiniu",
-    "description": "七牛上传工具包",
-    "type": "lib",
-    "license": "mit",
+    "description": "laravel qiniu upload wrapper",
+    "license": "MIT",
     "authors": [
         {
             "name": "guicheng",
             "email": "996719827@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+	"autoload":{
+		"psr-4":{
+			"Qiniu\\":"src/"
+		}
+	}
 }
