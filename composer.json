@@ -1,0 +1,17 @@
+{
+    "name": "ladimin/qiniu",
+    "description": "laravel qiniu upload wrapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "guicheng",
+            "email": "996719827@qq.com"
+        }
+    ],
+    "require": {},
+	"autoload":{
+		"psr-4":{
+			"Qiniu\\":"src/"
+		}
+	}
+}
